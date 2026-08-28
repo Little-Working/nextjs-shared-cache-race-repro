@@ -1,0 +1,16 @@
+{
+  "name": "nextjs-shared-cache-race-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.0-canary.9"
+  },
+  "packageManager": "pnpm@11.1.3",
+  "engines": {
+    "node": ">=22"
+  }
+}
